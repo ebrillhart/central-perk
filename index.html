@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="CentralPerkApp">
+<head>
+	<title>Central Perk</title>
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-animate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+    <script src="./app/services.js"></script>
+    <script src="./app/controllers.js"></script>
+    <script src="./app/app.js"></script>
+</head>
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/#!/">Central Perk</a>
+		</div>
+	
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/#!/about">About</a></li>
+				<li class="dropdown" uib-dropdown>
+					<a href="#" class="dropdown-toggle" uib-dropdown-toggle>Friends <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="/#!/friends/monica">Monica</a></li>
+						<li><a href="/#!/friends/rachel">Rachel</a></li>
+						<li><a href="/#!/friends/phoebe">Phoebe</a></li>
+						<li><a href="/#!/friends/ross">Ross</a></li>
+						<li><a href="/#!/friends/chandler">Chandler</a></li>
+						<li><a href="/#!/friends/joey">Joey</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+	<!-- Template for views -->
+	<div class="container">
+		<ng-view></ng-view>
+	</div>
+</body>
+</html>
