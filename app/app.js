@@ -3,9 +3,9 @@ var app = angular.module('CentralPerkApp', ['FriendsCtrls', 'ngRoute', 'ui.boots
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     //define routes
     $routeProvider.when('/', {
-        templateUrl: 'views/index.html',
+        templateUrl: 'views/cpindex.html',
     }).when('/about', {
-        templateUrl: 'views/about.html'
+        templateUrl: 'views/cpabout.html'
     }).when("/friends", {
     	templateUrl: "views/friends.html",
     	controller: 'FriendCtrl'
