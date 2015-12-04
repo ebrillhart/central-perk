@@ -43,7 +43,7 @@ iframe {
 	margin-top: -60px;
 }
 
-#friendsHeader {
+#friendsHeader, #errorHeader {
 	color: black;
 	font-family: Ribeye, sans-serif;
 }
