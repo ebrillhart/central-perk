@@ -1,1 +1,10 @@
-<h1>All the friends</h1>
+<h1 class="text-center" id="friendsHeader">They'll be there for you.</h1>
+
+<div class="row" id="friendsRow">
+	<div ng-repeat="friend in friends" class="col-md-2">
+		<img class="img-responsive center-block promoImg" src="{{ friend.img }}">
+		<h4 class="text-center">{{ friend.name }}</h4>
+		<h5 class="text-center">{{ friend.job }}</h5>
+		<p class="text-center">"{{ friend.quote }}"</p>
+	</div>
+</div>

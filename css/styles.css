@@ -1,3 +1,49 @@
-/*body {
-	background-color: red;
-}*/
+body {
+	background-color: #DFC39C;
+	font-family: Love ya like a sister, sans-serif;
+}
+
+.navbar-default {
+	padding-bottom: 20px;
+	background-color: #BC0004;
+	border: none;
+	border-radius: 0px;
+	font-family: Love ya like a sister, sans-serif;
+}
+
+iframe {
+	margin-top: 40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #DFC39C;
+}
+
+#friendsRow {
+	margin-top: 50px;
+}
+
+.promoImg {
+	height: 200px;
+}
+
+.navbar-nav>li>a {
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+#logoPic {
+	width: 150px;
+	height: 100px;
+	padding: 0px;
+	margin: -22px -5px -5px -5px;
+}
+
+#mainPageLogo {
+	margin-top: -60px;
+}
+
+#friendsHeader {
+	color: black;
+	font-family: Ribeye, sans-serif;
+}
